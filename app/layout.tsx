@@ -6,7 +6,7 @@ import LightRays from "@/components/lightrays";
 import Navbar from "@/components/Navbar";
 
 const schibstedGrotesk = Schibsted_Grotesk({
-  variable: "--font-schibsted-sans",
+  variable: "--font-schibsted-grotesk",
   subsets: ["latin"],
 });
 
