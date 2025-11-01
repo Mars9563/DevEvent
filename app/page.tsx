@@ -2,13 +2,14 @@ import React from 'react'
 import ExploreBtn from "@/components/ExploreBtn";
 import EventCard from "@/components/EventCard";
 import {IEvent} from "@/database";
-import events from "@/lib/constants"
+
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 const Page = async () => {
 
-    // const response = await fetch(`${BASE_URL}/api/events`);
-    // const { events } = await response.json();
+    const response = await fetch(`${BASE_URL}/api/events`);
+    const { events } = await response.json();
 
     return (
         <section>
